@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 20% 98%;
+    --foreground: 215 25% 27%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 27%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 27%;
+
+    --primary: 170 65% 55%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 122 41% 49%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215 16% 47%;
+
+    --accent: 122 41% 64%;
+    --accent-foreground: 222 47% 11%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 170 65% 55%;
+
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 215 25% 27%;
+    --foreground: 210 40% 98%;
+
+    --card: 215 25% 27%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 215 25% 27%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 170 65% 55%;
+    --primary-foreground: 222 47% 11%;
+
+    --secondary: 122 41% 49%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 122 41% 64%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 170 65% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-text;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/90 backdrop-blur-md border border-white/30 shadow-lg hover:shadow-xl transition-shadow duration-300;
+  }
+
+  /* Anki Page Styles */
+  .anki-card {
+    @apply bg-white p-4 rounded-lg shadow-md relative;
+  }
+
+  .anki-card-buttons {
+    @apply flex justify-end mt-4;
+  }
+
+  .anki-card-buttons > button {
+    @apply mr-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+  }
+}

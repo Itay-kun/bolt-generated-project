@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.medschoolin.com/</loc>
+    <lastmod>2024-02-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.medschoolin.com/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.medschoolin.com/pl" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.medschoolin.com/sv" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.medschoolin.com/he" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.medschoolin.com/ar" />
+  </url>
+  <url>
+    <loc>https://www.medschoolin.com/universities</loc>
+    <lastmod>2024-02-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.medschoolin.com/universities" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.medschoolin.com/pl/universities" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.medschoolin.com/sv/universities" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.medschoolin.com/he/universities" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.medschoolin.com/ar/universities" />
+  </url>
+  <url>
+    <loc>https://www.medschoolin.com/features</loc>
+    <lastmod>2024-02-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.medschoolin.com/features" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.medschoolin.com/pl/features" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.medschoolin.com/sv/features" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.medschoolin.com/he/features" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.medschoolin.com/ar/features" />
+  </url>
+  <url>
+    <loc>https://www.medschoolin.com/about</loc>
+    <lastmod>2024-02-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.medschoolin.com/about" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.medschoolin.com/pl/about" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.medschoolin.com/sv/about" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.medschoolin.com/he/about" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.medschoolin.com/ar/about" />
+  </url>
+</urlset>
